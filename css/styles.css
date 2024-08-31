@@ -1,0 +1,226 @@
+/* Reseta margens e paddings padrões para todos os elementos */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estiliza o header com cor de fundo cinza e texto centralizado em branco */
+header {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px;
+}
+
+ul li {
+    margin: 0 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.perfil {
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.fundo-codigo {
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.foto-codigo {
+    width: 100%;
+    max-width: 700px;
+    height: 300px;
+    border-radius: 9%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.bio {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.redes-sociais {
+    margin-top: 20px;
+}
+
+.redes-sociais a {
+    text-decoration: none;
+    color: #007bff;
+    margin: 0 10px;
+}
+
+.redes-sociais a:hover {
+    text-decoration: underline;
+}
+
+.projetos {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.projetos h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #003366;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 10px;
+}
+
+.projeto {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-left: 5px solid #003366;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+}
+
+.projeto:hover {
+    transform: translateY(-5px);
+}
+
+.projeto h3 {
+    font-size: 22px;
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+.projeto h3 a {
+    text-decoration: none;
+    color: #003366;
+    transition: color 0.3s ease;
+}
+
+.projeto h3 a:hover {
+    color: #0066cc;
+}
+
+.projeto p {
+    font-size: 16px;
+    color: #666666;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+.contato {
+    max-width: 600px;
+    width: 100%;
+    margin: 20px auto;
+    text-align: left;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contato h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #003366;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+button[type="submit"]:hover {
+    background-color: #064e96;
+}
+
+.formacoes {
+    margin: 30px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formacoes h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 10px;
+}
